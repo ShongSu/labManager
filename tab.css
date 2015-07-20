@@ -1,0 +1,72 @@
+
+
+
+*{margin:0;padding:0;}
+ .wrap{width:105%;}
+ #tag{ width:0%; overflow:hidden; background:#000; border:1px solid #000; }
+ #tag li{list-style:none; float:left; margin-right:0px; color:white; padding:5px 20px; cursor: pointer;}
+ #tag .current{ color:#000; background:#ccc; }
+ #tagContent div{ width:100%; border:1px solid #000; border-top:none; height:500px; display:none; }
+ 
+ *{margin:0;padding:0;}
+ .wrapto{width:95%; margin:2% auto; }
+ #tag{ width:95%; overflow:hidden; background:#000; border:1px solid #000; }
+ #tag li{list-style:none; float:left; margin-right:0px; color:white; padding:5px 20px; cursor: pointer;}
+ #tag .current{ color:#000; background:#ccc; }
+ #tagContent div{ width:95%; border:1px solid #000; border-top:none; height:auto; display:none; }
+ 
+ 
+ 
+#myTable  
+  {  
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;  
+  margin:0px 10%; 
+  border:1px solid black;  
+  width:80%;  
+  border-collapse:collapse;  
+  }  
+  
+#myTable td, #myTable th   
+  {  
+  font-size:1em;  
+  border:1px solid  white;  
+  padding:3px 7px 2px 7px;  
+  }  
+  
+#myTable th   
+  {  
+  font-size:1.1em;  
+  text-align:left;  
+  padding-top:5px;  
+
+  padding-bottom:4px;  
+  background-color:#000000;  
+  color:#ffffff;  
+  }  
+  
+#myTable tr.alt td   
+  {  
+  color:#000000;  
+  background-color:#EAF2D3;  
+  }  
+  
+  
+  
+  
+ #myMSTable
+  {  
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;  
+  margin:0px 2%; 
+  border:1px solid black;  
+  width:95%;  
+  border-collapse:collapse;  
+  }  
+  
+  #myMSTable td, #myMSTable th   
+  {  
+  font-size:1em;  
+  border:1px solid  black;  
+  padding:2px;  
+  text-align:center;
+
+  }  
